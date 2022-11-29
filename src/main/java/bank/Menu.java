@@ -72,7 +72,7 @@ public class Menu {
           ;
           break;
         case 2:
-          System.out.println("How much would you like to deposit?");
+          System.out.println("How much would you like to withdraw?");
           amount = scanner.nextDouble();
           try {
             account.withdraw(amount);
